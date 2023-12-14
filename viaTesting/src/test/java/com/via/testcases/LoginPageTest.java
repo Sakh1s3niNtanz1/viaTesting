@@ -20,6 +20,12 @@ public class LoginPageTest {
 	
 	}
 	
+	@Test
+	public void validateClickSigninBtn() {
+		lp.clickSigninBtn().click();
+	
+	}
+	
 	@Test 
 	public void validateUsernameField() {
 		Assert.assertTrue(lp.getUsernameField().isDisplayed());
@@ -33,14 +39,49 @@ public class LoginPageTest {
 	@Test
 	public void validateRegistrationTest() {
 		lp.getUsernameField().sendKeys("magwaza749@gmail.com");
-		lp.getPasswordField().sendKeys("Philani@123");
+		lp.getPasswordField().sendKeys("Philani@124");
+		lp.clickSigninBtn().click();
+
 	}
 	
 	@Test
 	public void validateForgetPasswordTest() {
 		Assert.assertTrue(lp.getForgotPassword().isDisplayed());
+		
 	
 	}
+	
+	
+	
+	@Test
+	public void validateUsernameErrorMsgTest() throws InterruptedException {
+		lp.clickSigninBtn().click();
+//		Thread.sleep(3000);
+		lp.waitForEl(lp.getUsernameErrorMsg());
+		
+		
+
+		Assert.assertTrue(lp.getUsernameErrorMsg().isDisplayed());
+	
+	}
+	
+	@Test
+	public void validatePasswordErrorMsgTest() {
+		lp.clickSigninBtn().click();
+
+		Assert.assertTrue(lp.getPasswordErrorMsg().isDisplayed());
+	
+	}
+	
+	@Test
+	public void validateWrongCredentialsErrorMsgTest() {
+		lp.clickSigninBtn().click();
+
+		Assert.assertTrue(lp.getUsernameErrorMsg().isDisplayed());
+	
+	}
+	
+	
 	
 	@AfterMethod
 	public void closeSetUpLogin() {
