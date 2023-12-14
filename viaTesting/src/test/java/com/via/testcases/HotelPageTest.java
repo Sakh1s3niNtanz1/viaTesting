@@ -12,65 +12,167 @@ import org.testng.annotations.Test;
 import com.via.base.ViaBase;
 import com.via.pages.HotelPage;
 
-public class HotelPageTest extends ViaBase{
-
-	private HotelPage hotelBooking;
-
+public class HotelPageTest {
 	
-	public void searchHotel() 
+	
+	HotelPage hp = new HotelPage();
+	
+	@BeforeMethod
+	public void setUpHotelTest()
 	{
-		
-		WebElement destinationInput = driver.findElement(By.id("destination"));
-		WebElement checkInDateInput = driver.findElement(By.id("checkIn"));
-		WebElement checkOutDateInput = driver.findElement(By.id("checkOut"));
-		//WebElement searchButton = driver.findElement(By.id("searchBtn"));
-		
-		destinationInput.sendKeys("New York");
-		checkInDateInput.click();
-		driver.findElement(By.xpath("//*[@id=\"depart-cal\"]/div[3]/div[2]/div[4]/div[6]")).click();
-		
-		
-		checkOutDateInput.click();
-		driver.findElement(By.xpath("//*[@id=\"return-cal\"]/div[4]/div[2]/div[4]/div[5]")).click();
-		//searchButton.click();
+		hp.setUp();
+	}
+	@Test
+	public void navigateToHotelsTest()
+	{
+		hp.setNavigateToHotels();
+		boolean hotelpagepresent = hp.getHotelPagePresent();
+		Assert.assertTrue(hotelpagepresent);
+	}
+	@Test
+	public void searchScrollBarTest()
+	{
+		hp.setSearchScrollBar();
 	}
 	
 	@Test
-	public void testSetDestination ()
+	public void setDestinationTest ()
 	{
-		hotelBooking = new HotelPage();
-		hotelBooking.setDestination("New York");
-		WebElement destinationInput = hotelBooking.getDestinationInput();
+		//initialized using a setter
+		hp.setDestination("New York");
+		hp.setSearchScrollBar();
+		WebElement destinationInput = hp.getDestinationInput();
 		Assert.assertEquals(destinationInput.getAttribute("value"), "New York", "Destination input is not set correct");
 		
 	}
+	@Test
+	public void searchSrollBarTest()
+	{
+		hp.setDestination("a");
+		hp.setSearchScrollBar();
+		WebElement scrollBarTest = hp.getDestinationInput();
+		Assert.assertEquals(scrollBarTest.getAttribute("value"), "a", "search scroll bar is not present or visible");
+	}
 	
+	//@Test
+	public void clickCalendarTest()
+	{
+		
+		hp.setCheckInDate();
+		WebElement checkInDateInput = hp.getCheckInDate();
+		Assert.assertEquals(checkInDateInput.getAttribute("value"), "Wed, Dec 20 2023", "Check-in date input is not set correct");
+		
+	}
 	
+	//@Test
+	public void setCheckOutDateTest()
+	{
+		hp.setCheckOutDate();
+		WebElement checkOutDateInput = hp.getCheckOutDate();
+		Assert.assertEquals(checkOutDateInput.getAttribute("value"), "Sat, Dec 23 2023", "Check-in date input is not set correc");
+	}
+	
+	//@Test
+	public void setSearchButtonTest()
+	{
+		hp.setSearchHotels();
+	}
 	
 	@Test
-	public void testSetCheckInDate()
+	public void setRoomsMenu()
 	{
-		hotelBooking = new HotelPage();
-		hotelBooking.setCheckInDate("2023-12-25");
-		WebElement checkInDateInput = hotelBooking.getCheckInDate();
-		Assert.assertEquals(checkInDateInput.getAttribute("value"), "2023-12-25", "Check-in date input is not set correc");
+		hp.setRoomsMenu();
 	}
 	
-	public void testSelectCheckInDate()
+	@Test 
+	public void getDoneButtonMenu()
 	{
-		hotelBooking = new HotelPage();
-		hotelBooking.setCheckInDate("2023-12-25");
-		WebElement checkInDateInput = hotelBooking.getCheckInDate();
-		Assert.assertEquals(checkInDateInput.getAttribute("value"), "2023-12-25", "Check-in date input is not set correc");
+		hp.setRoomsMenu();
+		hp.setDoneButton();
+	}
+	
+	@Test
+	public void getCancelButtonTest()
+	{
+		hp.setRoomsMenu();
+		hp.setCancelButton();
+	}
+	
+	@Test 
+	public void getAdultsMinusInputTest()
+	{
+		hp.setRoomsMenu();
+		hp.setAdultsMinusInput();
+	}
+	@Test 
+	public void getAdultsPlusInputTest()
+	{
+		hp.setRoomsMenu();
+		hp.setAdultsPlusInput();
+	}
+	
+	@Test 
+	public void getChildrensMinusInputTest()
+	{
+		hp.setRoomsMenu();
+		hp.setChildrensMinusInput();
+	}
+	@Test 
+	public void getChildrensPlusInputTest()
+	{
+		hp.setRoomsMenu();
+		hp.setChildrensPlusInput();
 	}
 
-  
-  
-  
-  
-  
-  
-  /*
+	@Test
+	public void getChildrensAgeInputTest()
+	{
+		hp.setRoomsMenu();
+		hp.setChildrensPlusInput();
+		hp.setChildrensAgeInput();
+		hp.dropAndEnter();
+	}
+	@Test
+	public void getAdditionalRoomsTest()
+	{
+		hp.setRoomsMenu();
+		hp.setAdditionalRooms();
+	}
+	
+	@Test 
+	public void RemoveAdditionalRoomButtonTest()
+	{
+		hp.setRoomsMenu();
+		hp.setAdditionalRooms();
+		hp.setRemoveAdditionalRoomButton();
+	}
+	@Test
+	public void getNationaltyInputTest()
+	{
+		hp.setNationalityInput();
+		hp.dropAndEnter();
+	}
+	
+	@Test 
+	public void getResidencyInputTest()
+	{
+		hp.setResidencyInput();
+		hp.dropAndEnter();
+
+	}
+	@Test
+	public void getIsolationCheckBoxInput()
+	{
+		hp.setIsolationCheckBox();
+	}
+	
+	
+	
+}
+	
+	
+	
+/*
  * 	@Test
 	public void selectHotel() 
 	{
@@ -104,4 +206,4 @@ public class HotelPageTest extends ViaBase{
 	
 	
 	
-}
+//}
