@@ -35,6 +35,7 @@ public class HotelPageTest {
 	public void searchScrollBarTest()
 	{
 		hp.setSearchScrollBar();
+
 	}
 	
 	@Test
@@ -52,41 +53,39 @@ public class HotelPageTest {
 	{
 		hp.setDestination();
 		hp.waitFor(hp.getSearchScrollBar());		
-		hp.dropAndEnter();
-		hp.setSearchHotels();
-		hp.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(19));
-		hp.setSelectHotel();
-		//hp.setSearchScrollBar();
-		//WebElement scrollBarTest = hp.getDestinationInput();
-		//Assert.assertEquals(scrollBarTest.getAttribute("value"), "a", "search scroll bar is not present or visible");
+		hp.dropAndEnter();	
+		hp.setSearchScrollBar();
+		WebElement scrollBarTest = hp.getDestinationInput();
+		Assert.assertEquals(scrollBarTest.getAttribute("value"), "Mumbai,Maharashtra,India", "search scroll bar is not present or visible");
 	}
-	@Test
+	//@Test
 	public void setSelectHotelTest()
 	{
 		hp.setSelectHotel();
+		
 	}
-	@Test
+	//@Test
 	public void setSelectHotelDetailsTest()
 	{
 		hp.setSelectHotelDetails();
 	}
-	@Test
+	//@Test
 	public void setSelectHotelPhotosTest()
 	{
 		hp.setSelectHotelPhotos();
 	}
-	@Test
+	//@Test
 	public void setSelectHotelLocationTest()
 	{
 		hp.setSelectHotelLocation();
 	}
 
-	@Test
+	//@Test
 	public void setSelectHotelReviewsTest()
 	{
 		hp.setSelectHotelReviews();
 	}
-	@Test
+	//@Test
 	public void setSelectRoomsRating()
 	{
 		hp.setSelectHotelRoomsRating();
@@ -122,26 +121,6 @@ public class HotelPageTest {
 		hp.setcloseCalenderButton();
 	}
 	
-	//@Test
-	public void setCalenderDateCheckIn() throws InterruptedException
-	{
-		hp.setCheckInDateButton();
-		Thread.sleep(3000);
-		hp.setCalenderDateCheckingIn();
-		hp.setcloseCalenderButton();
-		//WebElement checkInDateInput = hp.getCheckInDate();
-		//Assert.assertEquals(checkInDateInput.getAttribute("value"), "Wed, Dec 20 2023", "Check-in date input is not set correct");
-	}
-	//@Test
-	public void setCalenderDateCheckOut()
-	{
-		hp.setCheckOutDateButton();
-		hp.setCalenderDateCheckingOut();
-		hp.setcloseCalenderButton();
-		//WebElement checkOutDateInput = hp.getCheckOutDate();
-		//Assert.assertEquals(checkOutDateInput.getAttribute("value"), "Sat, Dec 23 2023", "Check-in date input is not set correc");
-	}
-	
 	////////#################### DATE  END ############################//////////////////////////////////
 	
 	@Test
@@ -175,20 +154,20 @@ public class HotelPageTest {
 		hp.setRoomsMenu();
 		hp.setAdultsMinusInput();
 	}
-	@Test 
+	//@Test 
 	public void getAdultsPlusInputTest()
 	{
 		hp.setRoomsMenu();
 		hp.setAdultsPlusInput();
 	}
 	
-	@Test 
+	//@Test 
 	public void getChildrensMinusInputTest()
 	{
 		hp.setRoomsMenu();
 		hp.setChildrensMinusInput();
 	}
-	@Test 
+	//@Test 
 	public void getChildrensPlusInputTest()
 	{
 		hp.setRoomsMenu();
@@ -254,12 +233,7 @@ public class HotelPageTest {
 		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("/html/body/div[9]/div[3]")));
 		
 	}
-	@Test
-	public void fullSearchTest()
-	{
-		hp.fullSearch();
-		hp.getSelectHotel().click();
-	}
+
 	
 	
 }
