@@ -40,33 +40,7 @@ public class HotelPage extends ViaBase{
 		
 	}
 	
-	//######################## SELECT HOTEL DETAILS GETTERS BEGIN HERE ############################################
 
-	public WebElement getSelectHotel()
-	{
-		return driver.findElement(By.xpath("//div[@id='0']/div[2]/p[1]"));	
-	}
-	public WebElement getHotelSelectHotelDetails()
-	{
-		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[2]"));
-	}
-	public WebElement getHotelSelectHotelPhotos()
-	{
-		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[3]"));
-	}
-	public WebElement getHotelSelectHotelLocation()
-	{
-		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[4]"));
-	}
-	public WebElement getHotelSelectHotelReviews()
-	{
-		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[5]"));
-	}
-	public WebElement getHotelSelectHotelRoomsRating()
-	{
-		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[6]"));
-	}
-//######################## SELECT HOTEL DETAILS GETTERS END HERE ############################################
 
 	public WebElement getCheckInDate()
 	{
@@ -186,49 +160,6 @@ public class HotelPage extends ViaBase{
 		return driver.findElement(By.xpath(path));
 	}
 	
-//######################## SEARCH HOTEL BY USING CUSTOMIZED VALUES BEGIN HERE ############################################
-
-		public void fullSearch()
-		{
-			setDestination();
-	        waitFor(driver.findElement(By.xpath("//ul[@id=\"ui-id-1\"]")));
-	        Actions act=new Actions(driver);
-	        act.keyDown(Keys.ARROW_DOWN).keyUp(Keys.ARROW_DOWN).keyDown(Keys.ENTER).keyUp(Keys.ENTER).perform();
-	        driver.findElement(By.xpath("/html/body/div[3]/div[3]/div/form/div[3]/div/div[2]/div/div")).click();
-	        try {
-				Thread.sleep(3000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	        driver.findElement(By.xpath("//div[@id=\"depart-cal\"]/div[4]/div[2]/div[4]/div[2]")).click();
-	        driver.findElement(By.xpath("/html/body/div[3]/div[3]/div/form/div[3]/div/div[3]/div/div")).click();
-	        try {
-				Thread.sleep(3000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	        driver.findElement(By.xpath("//div[@id=\"return-cal\"]/div[4]/div[2]/div[4]/div[5]")).click();
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-	        setRoomsMenu();
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	        setAdultsPlusInput();
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	        setChildrensPlusInput();
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	        setChildrensAgeInput();
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-	        setDoneButton();
-	        setNationalityInput();
-	        setResidencyInput();
-	        driver.findElement(By.xpath("/html/body/div[3]/div[3]/div/form/div[3]/div/div[10]/div[3]")).click();
-
-		}
-	
-		//######################## SEARCH HOTEL BY USING CUSTOMIZED VALUES END HERE ############################################
-	
 
 	public WebElement getRoomsMenu()
 	{
@@ -308,7 +239,34 @@ public class HotelPage extends ViaBase{
 	}
 	//########################  GETTERS END HERE ############################################
 
+	//######################## SELECT HOTEL DETAILS GETTERS BEGIN HERE ############################################
 
+	public WebElement getSelectHotel()
+	{
+		return driver.findElement(By.xpath("//div[@id='0']/div[2]/p[1]"));	
+	}
+	public WebElement getHotelSelectHotelDetails()
+	{
+		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[2]"));
+	}
+	public WebElement getHotelSelectHotelPhotos()
+	{
+		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[3]"));
+	}
+	public WebElement getHotelSelectHotelLocation()
+	{
+		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[4]"));
+	}
+	public WebElement getSelectHotelReviews()
+	{
+		return driver.findElement(By.xpath("/html/body/div[9]/div[6]/div[1]/div[5]"));
+	}
+	public WebElement getHotelSelectHotelRoomsRating()
+	{
+		return driver.findElement(By.xpath("//div[9]/div[6]/div[1]/div[6]"));
+	}
+//######################## SELECT HOTEL DETAILS GETTERS END HERE ############################################
+	
 	
 	//########################  SETTERS BEGIN HERE ############################################
 	
@@ -340,8 +298,9 @@ public class HotelPage extends ViaBase{
 		waitFor(getSearchScrollBar());		
 		dropAndEnter();
 		setSearchHotels();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getSelectHotel().click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 	}
 	public void setSelectHotelDetails()
 	{
@@ -350,10 +309,11 @@ public class HotelPage extends ViaBase{
 		waitFor(getSearchScrollBar());		
 		dropAndEnter();
 		setSearchHotels();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getSelectHotel().click();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getHotelSelectHotelDetails().click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 	}
 	
 	public void setSelectHotelPhotos()
@@ -362,10 +322,11 @@ public class HotelPage extends ViaBase{
 		waitFor(getSearchScrollBar());		
 		dropAndEnter();
 		setSearchHotels();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getSelectHotel().click();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getHotelSelectHotelPhotos().click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 	}
 	public void setSelectHotelLocation()
 	{	
@@ -373,10 +334,11 @@ public class HotelPage extends ViaBase{
 		waitFor(getSearchScrollBar());		
 		dropAndEnter();
 		setSearchHotels();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getSelectHotel().click();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getHotelSelectHotelLocation().click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 	}
 	public void setSelectHotelReviews()
 	{
@@ -384,10 +346,11 @@ public class HotelPage extends ViaBase{
 		waitFor(getSearchScrollBar());		
 		dropAndEnter();
 		setSearchHotels();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getSelectHotel().click();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
-		getHotelSelectHotelReviews().click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
+		getSelectHotelReviews().click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 	}
 	public void setSelectHotelRoomsRating()
 	{
@@ -395,10 +358,11 @@ public class HotelPage extends ViaBase{
 		waitFor(getSearchScrollBar());		
 		dropAndEnter();
 		setSearchHotels();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getSelectHotel().click();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 		getHotelSelectHotelRoomsRating().click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));	
 	}
 	
 //############################## SELECT HOTELS AFTER CLICKING SEARCH  (END) #########################################
