@@ -16,36 +16,57 @@ public class LoginPageTest {
 	}
 	@Test
 	public void validateSigninBtn() {
+		lp.clickSignin();
 		Assert.assertTrue(lp.getSigninBtn().isDisplayed());
 	
 	}
 	
 	@Test
 	public void validateClickSigninBtn() {
+		lp.clickSignin();
+
 		lp.clickSigninBtn().click();
 	
 	}
 	
 	@Test 
 	public void validateUsernameField() {
+		lp.clickSignin();
+
 		Assert.assertTrue(lp.getUsernameField().isDisplayed());
 	}
 	
 	@Test
 	public void validatePasswordField() {
+		lp.clickSignin();
+
 		Assert.assertTrue(lp.getPasswordField().isDisplayed());
 	}
 	
 	@Test
-	public void validateRegistrationTest() {
-		lp.getUsernameField().sendKeys("magwaza749@gmail.com");
-		lp.getPasswordField().sendKeys("Philani@124");
+	public void validateLoginTest() {
+		lp.clickSignin();
+
+		
 		lp.clickSigninBtn().click();
 
 	}
 	
 	@Test
+	public void loginValidattionTest() {
+		lp.clickSignin();
+		lp.getUsernameField().sendKeys("magwaza749@gmail.com");
+		lp.getPasswordField().sendKeys("Philani@123");
+		lp.clickSigninBtn().click();
+		Assert.assertTrue(lp.getGreetingMsg().isDisplayed());
+
+	}
+
+	
+	@Test
 	public void validateForgetPasswordTest() {
+		lp.clickSignin();
+
 		Assert.assertTrue(lp.getForgotPassword().isDisplayed());
 		
 	
@@ -55,6 +76,7 @@ public class LoginPageTest {
 	
 	@Test
 	public void validateUsernameErrorMsgTest() throws InterruptedException {
+		lp.clickSignin();
 		lp.clickSigninBtn().click();
 //		Thread.sleep(3000);
 		lp.waitForEl(lp.getUsernameErrorMsg());
@@ -67,19 +89,29 @@ public class LoginPageTest {
 	
 	@Test
 	public void validatePasswordErrorMsgTest() {
-		lp.clickSigninBtn().click();
+		lp.clickSignin();
+		lp.getUsernameField().sendKeys("magwaza749@gmail.com");
 
+		lp.clickSigninBtn().click();
+		lp.waitForEl(lp.getPasswordErrorMsg());
 		Assert.assertTrue(lp.getPasswordErrorMsg().isDisplayed());
 	
 	}
 	
 	@Test
 	public void validateWrongCredentialsErrorMsgTest() {
+		lp.clickSignin();
+		lp.getUsernameField().sendKeys("magwaza749@gmail.com");
+		lp.getPasswordField().sendKeys("Philani@124");
+		
 		lp.clickSigninBtn().click();
+		lp.waitForEl(lp.getWrongCredentialsErrorMsg());
 
-		Assert.assertTrue(lp.getUsernameErrorMsg().isDisplayed());
+		Assert.assertTrue(lp.getWrongCredentialsErrorMsg().isDisplayed());
 	
 	}
+	
+	
 	
 	
 	
