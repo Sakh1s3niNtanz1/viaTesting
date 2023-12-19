@@ -14,7 +14,6 @@ public class LoginPage extends ViaBase {
 	WebDriverWait wait;
 	
 	public WebElement getSigninBtn() {
-		driver.findElement(By.xpath("//div[@id=\"SignIn\"]/div")).click();
 		
 		return driver.findElement(By.id("loginValidate"));
 	}
@@ -25,45 +24,50 @@ public class LoginPage extends ViaBase {
 //	}
 	
 	public WebElement clickSigninBtn() {
-		driver.findElement(By.xpath("//div[@id=\"SignIn\"]/div")).click();
 		
 		return driver.findElement(By.id("loginValidate"));
 		
 
 	}
 	
+	public void clickSignin() {
+		driver.findElement(By.xpath("//div[@id='SignIn']/div")).click();
+
+	}
 	
+	
+	
+	public void waitForSomeTime() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 	
 	public WebElement getUsernameField() {
-		driver.findElement(By.xpath("//div[@id='SignIn']/div")).click();
-			
 		return driver.findElement(By.id("loginIdText"));
 		}
 	public WebElement getPasswordField() {
-		driver.findElement(By.xpath("//div[@id='SignIn']/div")).click();
-		
 		return driver.findElement(By.id("passwordText"));
 	}
 	public WebElement getForgotPassword() {
-		driver.findElement(By.xpath("//div[@id='SignIn']/div")).click();
 		
 		return driver.findElement(By.xpath("//div[@id='SignInContent']/div[1]/div[2]/div[1]/div/div[2]/label"));
 	}
 	
 	public WebElement getUsernameErrorMsg() {
-		driver.findElement(By.xpath("//div[@id='SignIn']/div")).click();
 		
 		return driver.findElement(By.xpath("//div[@class=\"qtip-content\"]"));
 	}
 	
 	public WebElement getPasswordErrorMsg() {
-		driver.findElement(By.xpath("//div[@id='SignIn']/div")).click();
 		
-		return driver.findElement(By.id("qtip-6-content"));
+		return driver.findElement(By.xpath("//div[@class='qtip-content']"));
 	}
 	
 	public WebElement getWrongCredentialsErrorMsg() {
-		driver.findElement(By.xpath("//div[@id='SignIn']/div")).click();
 		return driver.findElement(By.xpath("//div[@id='viaAlert']/div/div"));
 	}
 	
@@ -71,4 +75,9 @@ public class LoginPage extends ViaBase {
 		wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOf(el));
 	}
+	
+	public WebElement getGreetingMsg() {
+		
+		return driver.findElement(By.xpath("//div[@id='userNameSecondaryNav']/div"));
+		}
 }
