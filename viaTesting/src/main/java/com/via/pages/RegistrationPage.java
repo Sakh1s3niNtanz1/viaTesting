@@ -1,20 +1,15 @@
 package com.via.pages;
 
-import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import com.via.base.ViaBase;
 
 public class RegistrationPage extends ViaBase {
-	
-	WebDriverWait wait;
-	
 	
 	public void signUpSetUp() {
 		driver.findElement(By.xpath("//div[@id='SignIn']/div")).click();
@@ -101,12 +96,6 @@ public class RegistrationPage extends ViaBase {
 		return driver.findElement(By.id("signUpValidate"));
 	}
 	
-	
-	public void waitForEl(WebElement el) {
-		wait=new WebDriverWait(driver,Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOf(el));
-	}
-	
 	public void dropDownSelect() {
 		Select countryCodeDropDown = new Select(driver.findElement(By.xpath("//select[@id='mobileIsdSignUp']")));
 		List<WebElement> countryCodes = driver.findElements(By.xpath("//select[@id='mobileIsdSignUp']/option"));
@@ -123,23 +112,6 @@ public class RegistrationPage extends ViaBase {
 
 	}
 	
-	public boolean checkDisplayEl(WebElement el) {
-		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		return el.isDisplayed();
-	}
-	public WebElement getEl(String a) {
-		return driver.findElement(By.xpath(a));
-	}
 	
-	public void sendKeysToEl(WebElement el, String keys) {
-		el.sendKeys(keys);
-		
-	}
-	
-	public void clickEl(WebElement el) {
-		el.click();
-		
-	}
 
 }

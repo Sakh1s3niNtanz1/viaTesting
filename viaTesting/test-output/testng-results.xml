@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="76" passed="76" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-21T20:14:14 SAST" name="Suite" finished-at="2023-12-21T20:30:18 SAST" duration-ms="963271">
+    <groups>
+    </groups>
+    <test started-at="2023-12-21T20:14:14 SAST" name="Test" finished-at="2023-12-21T20:30:18 SAST" duration-ms="963271">
+      <class name="com.via.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:02 SAST" name="setUpLogin" finished-at="2023-12-21T20:19:09 SAST" duration-ms="6499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="loginValidattionTest()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:09 SAST" name="loginValidattionTest" finished-at="2023-12-21T20:19:12 SAST" duration-ms="2812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidattionTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:12 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:12 SAST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:12 SAST" name="setUpLogin" finished-at="2023-12-21T20:19:19 SAST" duration-ms="7255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validateClickForgetPasswordTest()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:19 SAST" name="validateClickForgetPasswordTest" finished-at="2023-12-21T20:19:19 SAST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateClickForgetPasswordTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:19 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:19 SAST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:19 SAST" name="setUpLogin" finished-at="2023-12-21T20:19:25 SAST" duration-ms="5499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validateClickSigninBtn()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:25 SAST" name="validateClickSigninBtn" finished-at="2023-12-21T20:19:25 SAST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateClickSigninBtn -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:25 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:25 SAST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:25 SAST" name="setUpLogin" finished-at="2023-12-21T20:19:31 SAST" duration-ms="5748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validateForgetPasswordTest()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:31 SAST" name="validateForgetPasswordTest" finished-at="2023-12-21T20:19:31 SAST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForgetPasswordTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:31 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:31 SAST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:31 SAST" name="setUpLogin" finished-at="2023-12-21T20:19:38 SAST" duration-ms="7393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validatePasswordErrorMsgTest()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:38 SAST" name="validatePasswordErrorMsgTest" finished-at="2023-12-21T20:19:39 SAST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasswordErrorMsgTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:39 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:39 SAST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:39 SAST" name="setUpLogin" finished-at="2023-12-21T20:19:44 SAST" duration-ms="5760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validatePasswordField()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:44 SAST" name="validatePasswordField" finished-at="2023-12-21T20:19:44 SAST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasswordField -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:44 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:45 SAST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:45 SAST" name="setUpLogin" finished-at="2023-12-21T20:19:50 SAST" duration-ms="5783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validateSigninBtn()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:50 SAST" name="validateSigninBtn" finished-at="2023-12-21T20:19:50 SAST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSigninBtn -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:50 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:51 SAST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:51 SAST" name="setUpLogin" finished-at="2023-12-21T20:19:58 SAST" duration-ms="7155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validateUsernameErrorMsgTest()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:58 SAST" name="validateUsernameErrorMsgTest" finished-at="2023-12-21T20:19:58 SAST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsernameErrorMsgTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:58 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:58 SAST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:19:58 SAST" name="setUpLogin" finished-at="2023-12-21T20:20:04 SAST" duration-ms="6210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validateUsernameField()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:20:04 SAST" name="validateUsernameField" finished-at="2023-12-21T20:20:04 SAST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsernameField -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:20:04 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:20:04 SAST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:20:04 SAST" name="setUpLogin" finished-at="2023-12-21T20:20:13 SAST" duration-ms="8904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="validateWrongCredentialsErrorMsgTest()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:20:13 SAST" name="validateWrongCredentialsErrorMsgTest" finished-at="2023-12-21T20:20:15 SAST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWrongCredentialsErrorMsgTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.LoginPageTest@6ed3ccb2]" started-at="2023-12-21T20:20:15 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:20:15 SAST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+      </class> <!-- com.via.testcases.LoginPageTest -->
+      <class name="com.via.testcases.FlightPageTest">
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:14:14 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:14:24 SAST" duration-ms="9636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="bookFlightTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:14:24 SAST" name="bookFlightTest" finished-at="2023-12-21T20:14:35 SAST" duration-ms="10596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:14:35 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:14:35 SAST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:14:35 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:14:42 SAST" duration-ms="7185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="searchMultiCityFlightTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:14:42 SAST" name="searchMultiCityFlightTest" finished-at="2023-12-21T20:14:48 SAST" duration-ms="5726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMultiCityFlightTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:14:48 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:14:48 SAST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:14:48 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:14:56 SAST" duration-ms="8011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="searchOneWayFlightTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:14:56 SAST" name="searchOneWayFlightTest" finished-at="2023-12-21T20:15:00 SAST" duration-ms="4629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOneWayFlightTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:00 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:01 SAST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:01 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:15:08 SAST" duration-ms="7424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="searchRoundTripFlightTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:08 SAST" name="searchRoundTripFlightTest" finished-at="2023-12-21T20:15:13 SAST" duration-ms="5031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchRoundTripFlightTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:13 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:13 SAST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:13 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:15:20 SAST" duration-ms="6703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateAdultsMinusTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:20 SAST" name="validateAdultsMinusTest" finished-at="2023-12-21T20:15:20 SAST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdultsMinusTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:20 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:20 SAST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:20 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:15:27 SAST" duration-ms="7244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateAdultsPlusTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:27 SAST" name="validateAdultsPlusTest" finished-at="2023-12-21T20:15:27 SAST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdultsPlusTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:27 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:27 SAST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:27 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:15:33 SAST" duration-ms="5619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateChildrenMinusTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:33 SAST" name="validateChildrenMinusTest" finished-at="2023-12-21T20:15:33 SAST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChildrenMinusTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:33 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:33 SAST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:33 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:15:39 SAST" duration-ms="6119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateChildrenPlusTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:39 SAST" name="validateChildrenPlusTest" finished-at="2023-12-21T20:15:39 SAST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChildrenPlusTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:39 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:39 SAST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:39 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:15:46 SAST" duration-ms="6331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateDepartureTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:46 SAST" name="validateDepartureTest" finished-at="2023-12-21T20:15:46 SAST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDepartureTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:46 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:46 SAST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:46 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:15:51 SAST" duration-ms="5664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateFromInputTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:51 SAST" name="validateFromInputTest" finished-at="2023-12-21T20:15:51 SAST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFromInputTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:51 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:52 SAST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:52 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:15:57 SAST" duration-ms="5599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateInfantMinusTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:57 SAST" name="validateInfantMinusTest" finished-at="2023-12-21T20:15:57 SAST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInfantMinusTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:57 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:15:57 SAST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:15:57 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:03 SAST" duration-ms="5555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateInfantPlusTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:03 SAST" name="validateInfantPlusTest" finished-at="2023-12-21T20:16:03 SAST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInfantPlusTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:03 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:03 SAST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:03 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:09 SAST" duration-ms="5597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateMultiCityTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:09 SAST" name="validateMultiCityTest" finished-at="2023-12-21T20:16:09 SAST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultiCityTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:09 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:09 SAST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:09 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:15 SAST" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateOneWayTabTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:15 SAST" name="validateOneWayTabTest" finished-at="2023-12-21T20:16:15 SAST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOneWayTabTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:15 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:15 SAST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:15 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:22 SAST" duration-ms="6535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validatePrefAirlineTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:22 SAST" name="validatePrefAirlineTest" finished-at="2023-12-21T20:16:22 SAST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrefAirlineTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:22 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:22 SAST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:22 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:28 SAST" duration-ms="6116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validatePrefClassTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:28 SAST" name="validatePrefClassTest" finished-at="2023-12-21T20:16:28 SAST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrefClassTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:28 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:28 SAST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:28 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:34 SAST" duration-ms="5828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validatePrefRoutingTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:34 SAST" name="validatePrefRoutingTest" finished-at="2023-12-21T20:16:34 SAST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrefRoutingTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:34 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:34 SAST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:34 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:40 SAST" duration-ms="5368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateReturnTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:40 SAST" name="validateReturnTest" finished-at="2023-12-21T20:16:40 SAST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReturnTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:40 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:40 SAST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:40 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:45 SAST" duration-ms="5663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateRoundTripTabTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:45 SAST" name="validateRoundTripTabTest" finished-at="2023-12-21T20:16:45 SAST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRoundTripTabTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:45 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:45 SAST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:45 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:16:53 SAST" duration-ms="7546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateSearchBtnTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:53 SAST" name="validateSearchBtnTest" finished-at="2023-12-21T20:16:53 SAST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchBtnTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:53 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:16:53 SAST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:16:53 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:17:01 SAST" duration-ms="7732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateShowMoreOptionsTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:17:01 SAST" name="validateShowMoreOptionsTest" finished-at="2023-12-21T20:17:01 SAST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateShowMoreOptionsTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:17:01 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:17:01 SAST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:17:01 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:17:07 SAST" duration-ms="5871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateToInputTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:17:07 SAST" name="validateToInputTest" finished-at="2023-12-21T20:17:07 SAST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateToInputTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:17:07 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:17:07 SAST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+        <test-method is-config="true" signature="FlightTestsSetUp()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:17:07 SAST" name="FlightTestsSetUp" finished-at="2023-12-21T20:17:15 SAST" duration-ms="7902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsSetUp -->
+        <test-method signature="validateYourRecentSearchesTest()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:17:15 SAST" name="validateYourRecentSearchesTest" finished-at="2023-12-21T20:17:15 SAST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourRecentSearchesTest -->
+        <test-method is-config="true" signature="FlightTestsCloser()[pri:0, instance:com.via.testcases.FlightPageTest@6c6cb480]" started-at="2023-12-21T20:17:15 SAST" name="FlightTestsCloser" finished-at="2023-12-21T20:17:15 SAST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightTestsCloser -->
+      </class> <!-- com.via.testcases.FlightPageTest -->
+      <class name="com.via.testcases.HotelPageTest">
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:20:15 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:20:33 SAST" duration-ms="17952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="RemoveAdditionalRoomButtonTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:20:33 SAST" name="RemoveAdditionalRoomButtonTest" finished-at="2023-12-21T20:20:33 SAST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveAdditionalRoomButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:20:33 SAST" name="tearDown" finished-at="2023-12-21T20:20:33 SAST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:20:33 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:20:49 SAST" duration-ms="16036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="fullSearchTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:20:49 SAST" name="fullSearchTest" finished-at="2023-12-21T20:21:02 SAST" duration-ms="13247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullSearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:02 SAST" name="tearDown" finished-at="2023-12-21T20:21:02 SAST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:02 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:21:22 SAST" duration-ms="19214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getAdditionalRoomsTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:22 SAST" name="getAdditionalRoomsTest" finished-at="2023-12-21T20:21:22 SAST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdditionalRoomsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:22 SAST" name="tearDown" finished-at="2023-12-21T20:21:22 SAST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:22 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:21:41 SAST" duration-ms="18845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getAdultsMinusInputTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:41 SAST" name="getAdultsMinusInputTest" finished-at="2023-12-21T20:21:41 SAST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdultsMinusInputTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:41 SAST" name="tearDown" finished-at="2023-12-21T20:21:41 SAST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:41 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:21:58 SAST" duration-ms="17569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getAdultsPlusInputTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:58 SAST" name="getAdultsPlusInputTest" finished-at="2023-12-21T20:21:59 SAST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdultsPlusInputTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:59 SAST" name="tearDown" finished-at="2023-12-21T20:21:59 SAST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:21:59 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:22:16 SAST" duration-ms="17162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getCancelButtonTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:16 SAST" name="getCancelButtonTest" finished-at="2023-12-21T20:22:16 SAST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCancelButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:16 SAST" name="tearDown" finished-at="2023-12-21T20:22:16 SAST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:16 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:22:32 SAST" duration-ms="15668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getChildrensAgeInputTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:32 SAST" name="getChildrensAgeInputTest" finished-at="2023-12-21T20:22:32 SAST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChildrensAgeInputTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:32 SAST" name="tearDown" finished-at="2023-12-21T20:22:32 SAST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:32 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:22:48 SAST" duration-ms="15682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getChildrensMinusInputTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:48 SAST" name="getChildrensMinusInputTest" finished-at="2023-12-21T20:22:48 SAST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChildrensMinusInputTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:48 SAST" name="tearDown" finished-at="2023-12-21T20:22:48 SAST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:22:48 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:23:03 SAST" duration-ms="15364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getChildrensPlusInputTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:03 SAST" name="getChildrensPlusInputTest" finished-at="2023-12-21T20:23:03 SAST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChildrensPlusInputTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:03 SAST" name="tearDown" finished-at="2023-12-21T20:23:04 SAST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:04 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:23:20 SAST" duration-ms="16674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getDoneButtonMenu()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:20 SAST" name="getDoneButtonMenu" finished-at="2023-12-21T20:23:20 SAST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDoneButtonMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:20 SAST" name="tearDown" finished-at="2023-12-21T20:23:21 SAST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:21 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:23:38 SAST" duration-ms="17911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getIsolationCheckBoxInput()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:38 SAST" name="getIsolationCheckBoxInput" finished-at="2023-12-21T20:23:39 SAST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIsolationCheckBoxInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:39 SAST" name="tearDown" finished-at="2023-12-21T20:23:39 SAST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:39 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:23:55 SAST" duration-ms="16474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getNationaltyInputTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:55 SAST" name="getNationaltyInputTest" finished-at="2023-12-21T20:23:55 SAST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNationaltyInputTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:55 SAST" name="tearDown" finished-at="2023-12-21T20:23:55 SAST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:23:55 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:24:12 SAST" duration-ms="16310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="getResidencyInputTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:24:12 SAST" name="getResidencyInputTest" finished-at="2023-12-21T20:24:12 SAST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResidencyInputTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:24:12 SAST" name="tearDown" finished-at="2023-12-21T20:24:12 SAST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:24:12 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:24:30 SAST" duration-ms="18220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="navigateToHotelsTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:24:30 SAST" name="navigateToHotelsTest" finished-at="2023-12-21T20:24:30 SAST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHotelsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:24:30 SAST" name="tearDown" finished-at="2023-12-21T20:24:30 SAST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:24:30 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:24:48 SAST" duration-ms="18129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="searchHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:24:48 SAST" name="searchHotelTest" finished-at="2023-12-21T20:25:07 SAST" duration-ms="18178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:25:07 SAST" name="tearDown" finished-at="2023-12-21T20:25:07 SAST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:25:07 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:25:25 SAST" duration-ms="17829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="searchScrollBarTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:25:25 SAST" name="searchScrollBarTest" finished-at="2023-12-21T20:25:25 SAST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchScrollBarTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:25:25 SAST" name="tearDown" finished-at="2023-12-21T20:25:25 SAST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:25:25 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:25:41 SAST" duration-ms="15992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="searchSrollBarTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:25:41 SAST" name="searchSrollBarTest" finished-at="2023-12-21T20:25:42 SAST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSrollBarTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:25:42 SAST" name="tearDown" finished-at="2023-12-21T20:25:42 SAST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:25:42 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:26:01 SAST" duration-ms="19017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setCheckInDateButtonTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:01 SAST" name="setCheckInDateButtonTest" finished-at="2023-12-21T20:26:01 SAST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCheckInDateButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:01 SAST" name="tearDown" finished-at="2023-12-21T20:26:01 SAST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:01 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:26:18 SAST" duration-ms="17061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setCheckOutDateButtonTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:18 SAST" name="setCheckOutDateButtonTest" finished-at="2023-12-21T20:26:19 SAST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCheckOutDateButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:19 SAST" name="tearDown" finished-at="2023-12-21T20:26:19 SAST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:19 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:26:39 SAST" duration-ms="20000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setCloseCalenderButtonCheckInTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:39 SAST" name="setCloseCalenderButtonCheckInTest" finished-at="2023-12-21T20:26:39 SAST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCloseCalenderButtonCheckInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:39 SAST" name="tearDown" finished-at="2023-12-21T20:26:39 SAST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:39 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:26:55 SAST" duration-ms="16528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setCloseCalenderButtonCheckOutTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:55 SAST" name="setCloseCalenderButtonCheckOutTest" finished-at="2023-12-21T20:26:56 SAST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCloseCalenderButtonCheckOutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:56 SAST" name="tearDown" finished-at="2023-12-21T20:26:56 SAST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:26:56 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:27:12 SAST" duration-ms="16324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setDestinationTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:12 SAST" name="setDestinationTest" finished-at="2023-12-21T20:27:19 SAST" duration-ms="7111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDestinationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:19 SAST" name="tearDown" finished-at="2023-12-21T20:27:19 SAST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:19 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:27:36 SAST" duration-ms="17033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setRoomsMenu()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:36 SAST" name="setRoomsMenu" finished-at="2023-12-21T20:27:36 SAST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRoomsMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:36 SAST" name="tearDown" finished-at="2023-12-21T20:27:36 SAST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:36 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:27:52 SAST" duration-ms="15816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setSearchButtonTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:52 SAST" name="setSearchButtonTest" finished-at="2023-12-21T20:27:52 SAST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSearchButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:52 SAST" name="tearDown" finished-at="2023-12-21T20:27:53 SAST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:27:53 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:28:10 SAST" duration-ms="17345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setSelectHotelLocationTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:28:10 SAST" name="setSelectHotelLocationTest" finished-at="2023-12-21T20:28:21 SAST" duration-ms="10696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelectHotelLocationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:28:21 SAST" name="tearDown" finished-at="2023-12-21T20:28:21 SAST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:28:21 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:28:39 SAST" duration-ms="17984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setSelectHotelPhotosTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:28:39 SAST" name="setSelectHotelPhotosTest" finished-at="2023-12-21T20:28:51 SAST" duration-ms="12255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelectHotelPhotosTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:28:51 SAST" name="tearDown" finished-at="2023-12-21T20:28:51 SAST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:28:51 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:29:11 SAST" duration-ms="19843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setSelectHotelReviewsTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:29:11 SAST" name="setSelectHotelReviewsTest" finished-at="2023-12-21T20:29:23 SAST" duration-ms="11688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelectHotelReviewsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:29:23 SAST" name="tearDown" finished-at="2023-12-21T20:29:23 SAST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:29:23 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:29:39 SAST" duration-ms="16114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setSelectHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:29:39 SAST" name="setSelectHotelTest" finished-at="2023-12-21T20:29:48 SAST" duration-ms="9374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelectHotelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:29:48 SAST" name="tearDown" finished-at="2023-12-21T20:29:48 SAST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpHotelTest()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:29:48 SAST" name="setUpHotelTest" finished-at="2023-12-21T20:30:06 SAST" duration-ms="17163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpHotelTest -->
+        <test-method signature="setSelectRoomsRating()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:30:06 SAST" name="setSelectRoomsRating" finished-at="2023-12-21T20:30:18 SAST" duration-ms="11986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSelectRoomsRating -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.via.testcases.HotelPageTest@15de0b3c]" started-at="2023-12-21T20:30:18 SAST" name="tearDown" finished-at="2023-12-21T20:30:18 SAST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.via.testcases.HotelPageTest -->
+      <class name="com.via.testcases.RegistrationPageTest">
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:15 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:17:21 SAST" duration-ms="5696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="clickSigninTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:21 SAST" name="clickSigninTest" finished-at="2023-12-21T20:17:21 SAST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSigninTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:21 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:17:21 SAST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:21 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:17:28 SAST" duration-ms="6867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateCountryCode()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:28 SAST" name="validateCountryCode" finished-at="2023-12-21T20:17:28 SAST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountryCode -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:28 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:17:28 SAST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:28 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:17:34 SAST" duration-ms="5880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateCountryCodeDropDownd()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:34 SAST" name="validateCountryCodeDropDownd" finished-at="2023-12-21T20:17:38 SAST" duration-ms="3732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountryCodeDropDownd -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:38 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:17:38 SAST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:38 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:17:45 SAST" duration-ms="7565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateCreatAccountBtnTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:45 SAST" name="validateCreatAccountBtnTest" finished-at="2023-12-21T20:17:46 SAST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatAccountBtnTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:46 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:17:46 SAST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:46 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:17:51 SAST" duration-ms="5711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateEmailErrorMsgTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:51 SAST" name="validateEmailErrorMsgTest" finished-at="2023-12-21T20:17:52 SAST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmailErrorMsgTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:52 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:17:52 SAST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:52 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:17:59 SAST" duration-ms="6847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateEmailFieldTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:59 SAST" name="validateEmailFieldTest" finished-at="2023-12-21T20:17:59 SAST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmailFieldTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:59 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:17:59 SAST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:17:59 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:18:06 SAST" duration-ms="6979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateNameErrorMsgTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:06 SAST" name="validateNameErrorMsgTest" finished-at="2023-12-21T20:18:06 SAST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNameErrorMsgTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:06 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:18:06 SAST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:06 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:18:12 SAST" duration-ms="5882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateNameFieldTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:12 SAST" name="validateNameFieldTest" finished-at="2023-12-21T20:18:12 SAST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNameFieldTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:12 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:18:12 SAST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:12 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:18:20 SAST" duration-ms="7355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateNumberErrorMsgTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:20 SAST" name="validateNumberErrorMsgTest" finished-at="2023-12-21T20:18:21 SAST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNumberErrorMsgTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:21 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:18:21 SAST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:21 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:18:27 SAST" duration-ms="6092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateNumberFieldTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:27 SAST" name="validateNumberFieldTest" finished-at="2023-12-21T20:18:27 SAST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNumberFieldTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:27 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:18:27 SAST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:27 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:18:34 SAST" duration-ms="7120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validatePasswordErrorMsgTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:34 SAST" name="validatePasswordErrorMsgTest" finished-at="2023-12-21T20:18:35 SAST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasswordErrorMsgTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:35 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:18:35 SAST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:35 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:18:43 SAST" duration-ms="7667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validatePasswordFieldTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:43 SAST" name="validatePasswordFieldTest" finished-at="2023-12-21T20:18:43 SAST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasswordFieldTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:43 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:18:43 SAST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:43 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:18:49 SAST" duration-ms="6535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateRegistrationTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:49 SAST" name="validateRegistrationTest" finished-at="2023-12-21T20:18:54 SAST" duration-ms="5120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:54 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:18:55 SAST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+        <test-method is-config="true" signature="setUpLoginTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:18:55 SAST" name="setUpLoginTest" finished-at="2023-12-21T20:19:02 SAST" duration-ms="7536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLoginTest -->
+        <test-method signature="validateTitleFieldTest()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:19:02 SAST" name="validateTitleFieldTest" finished-at="2023-12-21T20:19:02 SAST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleFieldTest -->
+        <test-method is-config="true" signature="closeSetUpLogin()[pri:0, instance:com.via.testcases.RegistrationPageTest@62ddbd7e]" started-at="2023-12-21T20:19:02 SAST" name="closeSetUpLogin" finished-at="2023-12-21T20:19:02 SAST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpLogin -->
+      </class> <!-- com.via.testcases.RegistrationPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

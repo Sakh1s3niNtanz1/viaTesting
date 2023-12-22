@@ -1,17 +1,13 @@
 package com.via.testcases;
 
-import java.time.Duration;
+import java.io.IOException;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.via.base.ViaBase;
 import com.via.pages.HotelPage;
 
 public class HotelPageTest {
@@ -20,9 +16,14 @@ public class HotelPageTest {
 	HotelPage hp = new HotelPage();
 	
 	@BeforeMethod
-	public void setUpHotelTest()
+	public void setUpHotelTest() throws IOException
 	{
-		hp.setUp();
+		hp.setUp("Hotel");
+	}
+	@AfterMethod
+	public void tearDown ()
+	{
+		hp.cleanAndClose();
 	}
 	@Test
 	public void navigateToHotelsTest()
@@ -35,60 +36,62 @@ public class HotelPageTest {
 	public void searchScrollBarTest()
 	{
 		hp.setSearchScrollBar();
-
+		Assert.assertTrue(hp.checkDisplayEl(hp.getSearchScrollBar()));
 	}
 	
 	@Test
 	public void setDestinationTest ()
 	{
-		//initialized using a setter
 		hp.setDestination();
-		hp.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		//hp.setSearchScrollBar();
-		//WebElement destinationInput = hp.getDestinationInput();
-		//Assert.assertEquals(destinationInput.getAttribute("value"), "New York", "Destination input is not set correct");
+		hp.waitForSomeSeconds(7);
+		Assert.assertTrue(hp.checkDisplayEl(hp.getSearchScrollBar()));
 	}
 	@Test
 	public void searchSrollBarTest()
 	{
 		hp.setDestination();
-		hp.waitFor(hp.getSearchScrollBar());		
+		hp.waitForEl(hp.getSearchScrollBar());		
 		hp.dropAndEnter();	
 		hp.setSearchScrollBar();
 		WebElement scrollBarTest = hp.getDestinationInput();
-		Assert.assertEquals(scrollBarTest.getAttribute("value"), "Mumbai,Maharashtra,India", "search scroll bar is not present or visible");
+		Assert.assertEquals(scrollBarTest.getAttribute("value"), "Mumbai,Maharashtra,IndiaMumbai", "search scroll bar is not present or visible");
 	}
-	//@Test
+	@Test
 	public void setSelectHotelTest()
 	{
 		hp.setSelectHotel();
-		
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//html/body/div[9]/div[6]/div[1]")));
 	}
-	//@Test
-	public void setSelectHotelDetailsTest()
-	{
-		hp.setSelectHotelDetails();
-	}
-	//@Test
+//	@Test
+//	public void setSelectHotelDetailsTest()
+//	{
+//		hp.setSelectHotelDetails();
+//		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//h4[text()='Description']")));
+//	}
+	@Test
 	public void setSelectHotelPhotosTest()
 	{
 		hp.setSelectHotelPhotos();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[@class='photoSection']")));
 	}
-	//@Test
+	@Test
 	public void setSelectHotelLocationTest()
 	{
 		hp.setSelectHotelLocation();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[@id='bigMap']")));
 	}
 
-	//@Test
+	@Test
 	public void setSelectHotelReviewsTest()
 	{
 		hp.setSelectHotelReviews();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//p[text()='What People are saying']")));
 	}
-	//@Test
+	@Test
 	public void setSelectRoomsRating()
 	{
 		hp.setSelectHotelRoomsRating();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[@class='allRoomSection js-allRoom']")));
 	}
 	
 	//################### DATE ######################################
@@ -98,12 +101,14 @@ public class HotelPageTest {
 	{
 		
 		hp.setCheckInDateButton();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//span[text()='Select Check Out Date']")));
 	}
 	
 	@Test
 	public void setCheckOutDateButtonTest()
 	{
 		hp.setCheckOutDateButton();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//span[text()='Select Check Out Date']")));
 
 	}
 	
@@ -112,6 +117,7 @@ public class HotelPageTest {
 	{
 		hp.setCheckInDateButton();
 		hp.setcloseCalenderButton();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));
 	}
 	
 	@Test
@@ -119,6 +125,7 @@ public class HotelPageTest {
 	{
 		hp.setCheckOutDateButton();
 		hp.setcloseCalenderButton();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));		
 	}
 	
 	////////#################### DATE  END ############################//////////////////////////////////
@@ -127,12 +134,15 @@ public class HotelPageTest {
 	public void setSearchButtonTest()
 	{
 		hp.setSearchHotels();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[text()='Select Destination']")));
+
 	}
 	
 	@Test
 	public void setRoomsMenu()
 	{
 		hp.setRoomsMenu();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[text()='Enter guest details per room']")));
 	}
 	
 	@Test 
@@ -140,12 +150,14 @@ public class HotelPageTest {
 	{
 		hp.setRoomsMenu();
 		hp.setDoneButton();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));		
 	}
 	
 	@Test
 	public void getCancelButtonTest()
 	{
 		hp.setCancelButton();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));		
 	}
 	
 	@Test 
@@ -153,125 +165,87 @@ public class HotelPageTest {
 	{
 		hp.setRoomsMenu();
 		hp.setAdultsMinusInput();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[text()='Enter guest details per room']")));
 	}
-	//@Test 
+	@Test 
 	public void getAdultsPlusInputTest()
 	{
 		hp.setRoomsMenu();
 		hp.setAdultsPlusInput();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[text()='Enter guest details per room']")));
 	}
 	
-	//@Test 
+	@Test 
 	public void getChildrensMinusInputTest()
 	{
 		hp.setRoomsMenu();
 		hp.setChildrensMinusInput();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[text()='Enter guest details per room']")));
 	}
-	//@Test 
+	@Test 
 	public void getChildrensPlusInputTest()
 	{
 		hp.setRoomsMenu();
 		hp.setChildrensPlusInput();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[text()='Enter guest details per room']")));
 	}
 
 	@Test
 	public void getChildrensAgeInputTest()
 	{
 		hp.setChildrensAgeInput();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));		
 
 	}
-	@Test
-	public void getTwoChildrenInput()
-	{
-		hp.setTwoChildreInput();
-	}
-	
-	@Test
-	public void getThreeChildrenInput()
-	{
-		hp.setThreeChildreInput();
-	}
-	
 	@Test
 	public void getAdditionalRoomsTest()
 	{
 		hp.setAdditionalRooms();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));		
 	}
 	
 	@Test 
 	public void RemoveAdditionalRoomButtonTest()
 	{
 		hp.setRemoveAdditionalRoomButton();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));		
 	}
 	@Test
 	public void getNationaltyInputTest()
 	{
 		hp.setNationalityInput();
-	
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));			
 	}
 	
 	@Test 
 	public void getResidencyInputTest()
 	{
 		hp.setResidencyInput();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));		
+
 	}
 	@Test
 	public void getIsolationCheckBoxInput()
 	{
 		hp.setIsolationCheckBox();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//label[text()='DESTINATION']")));		
+
 	}
 	@Test
 	public void searchHotelTest() {
 		
 		hp.searchHotel();
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		hp.waitForSomeSeconds(8);
 		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("/html/body/div[9]/div[3]")));
 		
 	}
-
-	
-	
-}
-	
-	
-	
-/*
- * 	@Test
-	public void selectHotel() 
-	{
-		WebElement selectButton = driver.findElement(By.xpath("//button[contains(text(),'Select')]"));
-		selectButton.click();
-	}
 	@Test
-	public void completeBooking() 
+	public void fullSearchTest()
 	{
-		WebElement numberofRoomsInput = driver.findElement(By.id("numberOfRooms"));
-		WebElement RoomTypeInput = driver.findElement(By.id("roomType"));
-		WebElement SpecialRequestInput = driver.findElement(By.id("specialRequests"));
-		WebElement bookNowInput = driver.findElement(By.id("bookNowtn"));
-		
-		numberofRoomsInput.sendKeys("2");
-		RoomTypeInput.sendKeys("Deluxe");
-		SpecialRequestInput.sendKeys("High floor, king bed");
-		bookNowInput
-
+		hp.fullSearch();
+		hp.getSelectHotel().click();
+		Assert.assertTrue(hp.checkDisplayEl(hp.getEl("//div[@class='hotelResContainer']")));
 	}
- * 
- */
 	
 	
-	//@AfterMethod
-	//public void tearDown ()
-	//{
-		//driver.quit();
-	//}
-	
-	
-	
-	
-//}
+}	

@@ -1,0 +1,460 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>76/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 21 20:14:14 SAST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>963 seconds (963271 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getChildrensAgeInputTest()'><b>getChildrensAgeInputTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateCreatAccountBtnTest()'><b>validateCreatAccountBtnTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateCountryCodeDropDownd()'><b>validateCountryCodeDropDownd</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setRoomsMenu()'><b>setRoomsMenu</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getResidencyInputTest()'><b>getResidencyInputTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateShowMoreOptionsTest()'><b>validateShowMoreOptionsTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateEmailErrorMsgTest()'><b>validateEmailErrorMsgTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateReturnTest()'><b>validateReturnTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validatePasswordFieldTest()'><b>validatePasswordFieldTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setDestinationTest()'><b>setDestinationTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>7</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validateForgetPasswordTest()'><b>validateForgetPasswordTest</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validatePasswordErrorMsgTest()'><b>validatePasswordErrorMsgTest</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateTitleFieldTest()'><b>validateTitleFieldTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.clickSigninTest()'><b>clickSigninTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateNameFieldTest()'><b>validateNameFieldTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.bookFlightTest()'><b>bookFlightTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>10</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateAdultsPlusTest()'><b>validateAdultsPlusTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateFromInputTest()'><b>validateFromInputTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getAdultsMinusInputTest()'><b>getAdultsMinusInputTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateNumberErrorMsgTest()'><b>validateNumberErrorMsgTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateEmailFieldTest()'><b>validateEmailFieldTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.fullSearchTest()'><b>fullSearchTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>13</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validatePasswordField()'><b>validatePasswordField</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.searchMultiCityFlightTest()'><b>searchMultiCityFlightTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setSelectHotelTest()'><b>setSelectHotelTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setSelectRoomsRating()'><b>setSelectRoomsRating</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>11</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateYourRecentSearchesTest()'><b>validateYourRecentSearchesTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validatePrefRoutingTest()'><b>validatePrefRoutingTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getChildrensMinusInputTest()'><b>getChildrensMinusInputTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateRoundTripTabTest()'><b>validateRoundTripTabTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validateUsernameErrorMsgTest()'><b>validateUsernameErrorMsgTest</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getCancelButtonTest()'><b>getCancelButtonTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validatePasswordErrorMsgTest()'><b>validatePasswordErrorMsgTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.RemoveAdditionalRoomButtonTest()'><b>RemoveAdditionalRoomButtonTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getAdditionalRoomsTest()'><b>getAdditionalRoomsTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateAdultsMinusTest()'><b>validateAdultsMinusTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getDoneButtonMenu()'><b>getDoneButtonMenu</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validateClickForgetPasswordTest()'><b>validateClickForgetPasswordTest</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getAdultsPlusInputTest()'><b>getAdultsPlusInputTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateCountryCode()'><b>validateCountryCode</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.searchOneWayFlightTest()'><b>searchOneWayFlightTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validateWrongCredentialsErrorMsgTest()'><b>validateWrongCredentialsErrorMsgTest</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.navigateToHotelsTest()'><b>navigateToHotelsTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setCheckOutDateButtonTest()'><b>setCheckOutDateButtonTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateChildrenPlusTest()'><b>validateChildrenPlusTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validatePrefClassTest()'><b>validatePrefClassTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateOneWayTabTest()'><b>validateOneWayTabTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateMultiCityTest()'><b>validateMultiCityTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getIsolationCheckBoxInput()'><b>getIsolationCheckBoxInput</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getNationaltyInputTest()'><b>getNationaltyInputTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateChildrenMinusTest()'><b>validateChildrenMinusTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setCloseCalenderButtonCheckInTest()'><b>setCloseCalenderButtonCheckInTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.searchRoundTripFlightTest()'><b>searchRoundTripFlightTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.searchScrollBarTest()'><b>searchScrollBarTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setCheckInDateButtonTest()'><b>setCheckInDateButtonTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateInfantPlusTest()'><b>validateInfantPlusTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validateUsernameField()'><b>validateUsernameField</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setCloseCalenderButtonCheckOutTest()'><b>setCloseCalenderButtonCheckOutTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateRegistrationTest()'><b>validateRegistrationTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.getChildrensPlusInputTest()'><b>getChildrensPlusInputTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateNameErrorMsgTest()'><b>validateNameErrorMsgTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateDepartureTest()'><b>validateDepartureTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setSelectHotelPhotosTest()'><b>setSelectHotelPhotosTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>12</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validateSigninBtn()'><b>validateSigninBtn</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setSelectHotelLocationTest()'><b>setSelectHotelLocationTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>10</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.searchHotelTest()'><b>searchHotelTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>18</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.searchSrollBarTest()'><b>searchSrollBarTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateSearchBtnTest()'><b>validateSearchBtnTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateInfantMinusTest()'><b>validateInfantMinusTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validateToInputTest()'><b>validateToInputTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.validateClickSigninBtn()'><b>validateClickSigninBtn</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.RegistrationPageTest.validateNumberFieldTest()'><b>validateNumberFieldTest</b><br>Test class: com.via.testcases.RegistrationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.RegistrationPageTest@62ddbd7e</td></tr>
+<tr>
+<td title='com.via.testcases.FlightPageTest.validatePrefAirlineTest()'><b>validatePrefAirlineTest</b><br>Test class: com.via.testcases.FlightPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.FlightPageTest@6c6cb480</td></tr>
+<tr>
+<td title='com.via.testcases.LoginPageTest.loginValidattionTest()'><b>loginValidattionTest</b><br>Test class: com.via.testcases.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.via.testcases.LoginPageTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setSearchButtonTest()'><b>setSearchButtonTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+<tr>
+<td title='com.via.testcases.HotelPageTest.setSelectHotelReviewsTest()'><b>setSelectHotelReviewsTest</b><br>Test class: com.via.testcases.HotelPageTest</td>
+<td></td>
+<td>11</td>
+<td>com.via.testcases.HotelPageTest@15de0b3c</td></tr>
+</table><p>
+</body>
+</html>
